@@ -1,0 +1,13 @@
+language: node_js
+
+script:
+  - chmod a+x build.sh
+  - chmod a+x deploy.sh
+
+  - npm run build
+  - ./deploy.sh
+
+env:
+  global:
+  - ENCRYPTION_LABEL: "43b9a82adbc7"
+  - COMMIT_AUTHOR_EMAIL: "zhukovsd@gmail.com"
