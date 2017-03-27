@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "node server.js",
-    "build": "build.sh"
+    "build": "./build.sh"
   },
   "author": "zhukovsd",
   "license": "MIT",
